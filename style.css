@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+h1{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    margin-bottom: 5px;
+    color:#3d62ce;
+}
+#displayWindow{
+    position: relative;
+    border: solid 10px greenyellow;
+    width: 800px;
+    height: 400px;
+    background-color: #535b68;
+    margin: auto;
+}
+
+#startBtn{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+body{
+    background-color: coral;
+}
+#score , #highScore{
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    font-size: 20px;    
+}
